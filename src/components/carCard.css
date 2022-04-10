@@ -1,0 +1,19 @@
+.card {
+    padding: 1em;
+}
+
+.image img{
+    width: 100%;
+}
+
+.info {
+    padding: 1em 0;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.info ul li {
+    list-style-type: none;
+}

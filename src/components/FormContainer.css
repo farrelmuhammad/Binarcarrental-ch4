@@ -1,0 +1,56 @@
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    padding: 20px;
+    height: 106px;
+    width: 80%;
+    margin: -220px auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 1px 1px rgb(177, 177, 177);
+  }
+  
+  .input-box {
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-box span {
+    font-weight: 500;
+  }
+  
+  .input-box select {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .input-box input {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .form-container form .btn {
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #5CB85F;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .form-container form .btn:hover {
+    background: #2d552e;
+  }

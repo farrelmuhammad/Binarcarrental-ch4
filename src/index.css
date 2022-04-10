@@ -1,0 +1,127 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 150%;
+}
+
+.hero-section {
+  background-color: #F1F3FF;
+  padding-top: 6rem;
+}
+
+.bg-darkblue{
+  background-color: #0D28A6;
+}
+
+.hero {
+  position: absolute;
+  left: 642px;
+  bottom: 126px;
+  width: 20px;
+}
+
+.img-custom {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+
+footer {
+  padding-top: 100px;
+}
+
+footer i {
+  color: #0D28A6;
+  font-size: x-large;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  margin: auto;
+  padding: 50px 50px;
+}
+.carousel .cardcar{
+    position: relative;
+  background: #F1F3FF;
+  border-radius: 8px;
+  width: 619px;
+  height: 270px;
+  margin: 10px 0;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.cardcar .cardcar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 30px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.cardcar-content .img-caro {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.cardcar-content .desc-card{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 10px;
+  } 
+  
+  .desc-card .name{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .desc-card .description{
+    font-size: 14px;
+    text-align: justify;
+  }
+  
+  .cardcar-content .description i{
+    font-size: 14px;
+    margin: 0 1px;
+    color: #F9CC00;
+  }
+
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 25px;
+  width: 25px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #5CB85F!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #5CB85F!important;
+}
+

@@ -1,0 +1,17 @@
+.cars-hero {
+    height: 266px;
+    background-color: #F1F3FF;
+    position: relative;
+}
+
+.form-wrapper {
+    position: absolute;
+    top: 440px;
+}
+
+.cars {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px 0;
+}
