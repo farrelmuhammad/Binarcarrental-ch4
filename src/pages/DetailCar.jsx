@@ -13,7 +13,7 @@ function DetailCar() {
             .then(response => {
                 setCar(response.data)
             })
-    }, [])
+    }, [id])
 
     if (car) {
         return (
